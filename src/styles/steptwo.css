@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: borde-box;
+  font-family: 'Poppins', sans-serif;
+}
+.steptwo{
+  /* margin-top: 5vh; */
+  /* margin-left: 3vw; */
+  width: 55vw;
+  min-height: 50vh;
+  border-radius: 8px;
+  padding-left: 2vw;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 15px, rgba(0, 0, 0, 0.23) 0px 3px 15px;
+
+}
+.steptwo p{
+  color: #777;
+  font-size: 0.9em;
+}
+
+.steps{
+  padding-top: 4vh;
+}
+
+.steptwo h2{
+  color: #0053ac;
+  font-size: 2em;
+}
+
+.steptwo textarea{
+  margin-top: 2vh;
+  width: 90%;
+  height: 8vh;
+  padding:5px 8px;
+  resize: none;
+}
+
+.steptwo textarea::placeholder {
+  font-size: 0.9rem;
+  color: #808080;
+  font-family: 'Poppins', sans-serif;
+}
+
+.steptwo button{
+  width: 14vw;
+  margin-top: 4vh;
+  background: transparent;
+  padding: 10px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  outline: none;
+  border: none;
+  color: #0053ac;
+  background-color: #7cbbff20;
+
+}
