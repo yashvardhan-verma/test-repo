@@ -55,3 +55,15 @@ form select{
     width: 30%;
     padding: 1vh 2vw;
 }
+
+form #submit{
+    margin-top: 2vh;
+    width: fit-content;
+    background: transparent;
+    outline: none;
+    border: none;
+    background-color: #0053ac;
+    color: #fff;
+    padding: 8px 12px;
+    margin-left: 60%;
+}

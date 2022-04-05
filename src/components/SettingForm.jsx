@@ -60,7 +60,7 @@ class SettingForm extends React.Component {
             </select>
           </label>
         </div>
-        <input type="submit" value="Submit" />
+        <input id="submit" type="submit" value="Generate Again &rarr;" />
       </form>
     );
   }
